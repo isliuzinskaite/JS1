@@ -1,0 +1,71 @@
+.container-7 {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box
+    width: 1400px;
+    height: 591px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  background: transparent url("../img/avatar_2_u231.png") no-repeat padding-box;
+  background-position: center;
+}
+
+.swiper {
+    width: 50%;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.swiper-slide {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.swiper-slide span {
+    color: white;
+    background-color: rgba(68, 67, 67, 0.548);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.slide-1 {
+    background: url("../img/avatar_2_u231@2x.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.slide-2 {
+    background: url("../img/avatar_2_u231@2x.png");
+    background-size: cover;
+    background-position: center
+}
+
+.slide-3 {
+    background: url("../img/avatar_2_u231@2x.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-pagination-bullet {
+    border: 3px solid white;
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination-bullet-active {
+    background: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+}
+

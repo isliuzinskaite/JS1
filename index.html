@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">  
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>JS egzaminas</title>    
+</head>
+
+<body>
+<!-- Meniu -->
+  <header>
+    <div class="menu">
+      <img class="logo" src="#" alt="logo" width="119" height="52" ALIGN=LEFT >
+      <nav>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- 1- Miesto dalis -->
+  <div class="container-1">
+      <div class="text">
+        <div id="logo-big"></div>
+        <div id="Explained">
+          <h1>Explained propriety of out perpetual to you</h1>
+        </div>
+        <div id="divider-white"></div>
+        <div id="Insipidity">
+          <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.</p>
+        </div>
+        <div id="download">
+          <button type="button" class="btn download">DOWNLOAD</button>
+        </div>
+      </div>
+
+      <div class="form">
+        <form id="try" action="#" method="get">
+          <h2 class="c1-h2">Try Your <span id="free">FREE</span>  Trial Today</h2> <br>
+          <h4 class="c1-h4">Your details</h4>
+          <input type="text" class="input" name="first-name" placeholder="First name" required> <br>
+          <input type="text" class="input" name="last-name" placeholder="Last name" required> <br>
+          <input type="tel" class="input" placeholder="Phone number" required> <br>
+          <h4 class="c1-h4">Type of subscription</h4> <br>
+            <input id="monthly" type="radio" name="subscription" value="monthly">
+            <label for="monthly">MONTHLY</label>
+            <input id="yearly" type="radio" name="subscription" value="yearly">
+            <label for="yearly">YEARLY</label> <br>
+          <input type="submit" value="GET STARTED">
+        </form>
+      </div>
+    </div>
+
+<!-- 2 - Social - siauras -->
+  <div class="container-2">
+    <div id="social-media">
+      <h3>Social Media</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p> 
+    </div>
+    <div id="icons">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-pinterest-p"></a>
+      <a href="#" class="fa fa-rss"></a>
+    </div>
+  </div>
+
+<!-- 3 - Tabs - kalnai-->
+  <!-- Container for flexbox -->
+  <div class="container-3">
+    <div class="tabs">
+      <button onclick="changeContent(0)">REGISTER</button>
+      <button onclick="changeContent(1)">APPLY</button>
+      <button onclick="changeContent(2)">RECEIVE</button>
+    </div>
+    <!-- Content -->
+    <section id="register">
+      <div class="slide">
+      <div id="tabs-text">
+        <span>
+          <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+        </span>
+        <span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </span>
+      </div>
+      <div id="tabs-img">
+        <div class="grid-container">
+          <div class="kopustas">
+            <h4 id="explore">Explore</h4>
+          </div>
+          <div class="salota"></div>
+          <div class="laiptai"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="apply">
+      <div class="slide">
+      <div id="tabs-text">
+        <span>
+          <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+        </span>
+        <span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </span>
+      </div>
+      <div id="tabs-img">
+        <div class="grid-container">
+          <div class="kopustas">
+            <h4 id="explore">Explore</h4>
+          </div>
+          <div class="salota"></div>
+          <div class="laiptai"></div>
+        </div>
+      </div></div>
+    </section>
+
+    <section id="receive">
+      <div class="slide">
+      <div id="tabs-text">
+        <span>
+          <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+        </span>
+        <span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </span>
+      </div>
+      <div id="tabs-img">
+        <div class="grid-container">
+          <div class="kopustas">
+            <h4 id="explore">Explore</h4>
+          </div>
+          <div class="salota"></div>
+          <div class="laiptai"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 4- Juodas -->
+  <div class="container-4">
+    <div id="big-logo">
+      <img class="big-logo" src="#" alt="big-logo">
+    </div>    
+    <div id="erat">
+      <h2 id="h2-erat">Erat tempor tempus <br> erat malesuada</h2>
+      <div id="divider-orange">
+        <img class="divider-orange" src="#" alt="divider-orange">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+      <div class="grid-title">
+        <div class="grid-item-1"></div>
+        <div class="grid-item-2">
+          <h4>Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
+        <div class="grid-item-3"></div>
+        <div class="grid-item-4">
+          <h4>Title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 -customers slides -->
+  <div class="container-7">
+    <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide-1">
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</span>
+        </div>
+        <div class="swiper-slide slide-2">
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</span>
+        </div>
+        <div class="swiper-slide slide-3">
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</span>
+        </div>
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+            <!-- Tabs for swiper-->
+        <div class="tabs">
+            <button index="0">Slides 1</button>
+            <button index="1">Slides 2</button>
+            <button index="2">Slides 3</button>
+        </div>
+
+
+  </div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="swiper.js"></script>
+
+    <!-- Custom script for tabs -->
+<script src="tabs.js"></script>
+</body>
+</html>
+
+

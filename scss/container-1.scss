@@ -1,0 +1,191 @@
+.container-1 {
+    display: flex;
+    z-index: 0;
+    width: 1400px;
+    height: 639px;
+    padding-top: 72px;
+    padding-left: 0px;
+    background-color: #1C1C1C;
+    background: transparent url("../img/component.png"); 
+    opacity: 1;  
+}
+
+.text {
+    width: 55%;
+}
+
+#logo-big {    
+    width: 247px;
+    height: 108px;
+    padding-top: 138px;
+    padding-left: 150px;
+    display: block;    
+    background: url("../img/cheshire-county-hygiene-services@2x.png") no-repeat padding-box;
+    background-position-x: 150px;
+    background-position-y: 138px;
+    opacity: 1;
+}
+
+#Explained {
+    width: 426px;
+    height: 87px;
+    padding-top: 25px;
+    padding-left: 147px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#divider-white {
+    width: 84px;
+    height: 22px;
+    padding-top: 15px;
+    padding-left: 142px;
+    display: block;
+    background: url("../img/divider_white_u72.png") no-repeat padding-box;
+    background-position-x: 142px;
+    background-position-y: 15px;
+    opacity: 1;
+}
+
+#Insipidity {
+    width: 651px;
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 150px;
+    color: #FFFFFF;
+    text-align: left;
+    font: normal 400 16px/23px Montserrat;
+    opacity: 1;
+}
+
+#download {
+    width: 135px;
+    height: 42px;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+.btn {
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    width: 135px;
+    height: 42px;   
+    opacity: 1;
+    background: none;
+}
+
+.form {
+  width: 320px;
+  height: 410px;
+  padding-top: 138px;
+  padding-left: 80px;
+}
+
+#try {
+    background-color: #FFFFFF;
+    box-shadow: (0px 5px 20px #00000029);
+    width: 320px;
+    height: 410px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.c1-h2 {
+    font: 600 20px/24px Montserrat;
+    color: #333333;
+    text-align: center;
+    opacity: 1;
+}
+
+#free {
+   color: #E27866;
+}
+
+.c1-h4 {
+    font: 600 16px/24px Montserrat;
+    color: #1C1C1C;
+    opacity: 1;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 31px;    
+}
+
+.input {
+    padding-left: 38px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 75%;
+    margin: 7px 0;
+    display: inline-block;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 15px;
+    height: 15px;
+    border: 1px solid #41D395;
+    border-radius: 100%;
+    
+    position: relative;
+    left: 30px;
+    opacity: 1;
+}
+
+label {
+    padding-left: 30px;
+    position: relative;
+    top: -1px;
+    opacity: 1;
+}
+
+label::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 15px;
+    width: 7px;
+    height: 7px;
+    background-color: #41D395;
+    border-radius: 100%;
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+input[type="radio"]:checked+label {
+    position: relative;
+    color: #000000;
+    font: 600 15px Montserrat;
+}
+
+input[type="radio"]:checked+label::before {
+    transform: scale(1);
+}
+
+input[type=submit] {
+    width: 112.5%;
+    background-color: #41D395;
+    color: white;
+    padding: 31.5px;
+    margin: 8px -20px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3dc089;
+}
